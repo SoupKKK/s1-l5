@@ -1,0 +1,33 @@
+/* Your styles here */
+
+hr{width: 0px;}
+html{text-align: center;}
+html img{width: 50%;}
+h1, h2, h3{color: #25a2c3; font-family: open sans-serif;}
+
+header{background-color: black; padding: 5%;}
+
+main{
+    background-image: url('banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 3% 7% 10% 7%;
+}
+main button{background-color: #f04c2f; font-family: 'Montserrat', sans-serif; color: white; font-weight: bold; padding: 2% 4% 2% 4%;}
+
+article {margin-left: 20px; margin-right: 20px;}
+article img{border-radius: 50%;}
+
+section{color: white; background-color: #f04c2f; padding: 6% 4% 4% 4%;}
+section h2{color: white}
+section span{font-size: 10px;}
+
+aside figure{padding-bottom: 5%; margin: 5%; border:1px ridge #dee1e3; border-radius: 5%;}
+aside img{width: 100%;}
+
+footer{background-color: #25a2c3;color: white; padding: 5%;}
+footer h2{color: white;}
+footer a{color: white;}
+footer img{width: 12px}
+footer :nth-child(5){font-size: 60%; margin-top: 5%;}
